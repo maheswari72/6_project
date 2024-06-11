@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Offers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(lkj.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 254, 254, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #0056b3;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #070707;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+</style>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Special Offers</h1>
+        <div class="row">
+            <!-- Offer 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card offer-card">
+                    <img src="nrk.jpg" class="card-img-top" alt="Offer 1">
+                    <div class="card-body">
+                        <h5>class="card-title">50% Off on Mixnuts</h5>
+                        <p class="card-text">Get 50% discount on Mixnuts for a limited time. Don't miss out on this amazing Offer!</p>
+                        <a href="cart.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card offer-card">
+                    <img src="ca.jpg" class="card-img-top" alt="Offer 2">
+                    <div class="card-body">
+                        <h5>class="card-title">Buy One Get One Free</h5>
+                        <p class="card-text">Buy one kg Cashewnut and get another one kg absolutely free. Hurry, while stocks last!</p>
+                        <a href="cart.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card offer-card">
+                    <img src="na.jpg" class="card-img-top" alt="Offer 3">
+                    <div class="card-body">
+                        <h5>class="card-title">20% Off on All Dry fruits </h5>
+                        <p class="card-text">Enjoy a 20% discount on all items across our store. Limited time offer!</p>
+                        <a href="cart.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
